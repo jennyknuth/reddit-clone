@@ -1,0 +1,192 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+ v2.0 | 20110126
+ License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.red {
+  color: red; }
+
+.green {
+  color: green; }
+
+body {
+  margin: 0;
+  width: 80vw;
+  background: red;
+  width: 100vw;
+  padding: 0; }
+
+p {
+  margin: 1em 0; }
+
+nav {
+  width: 100vw;
+  margin: 0 auto;
+  background: lightgray;
+  padding: 1em; }
+  nav div {
+    margin: 0 2em;
+    display: inline-block; }
+
+author {
+  display: block;
+  text-align: right;
+  margin-bottom: 1em; }
+
+img {
+  width: 200px; }
+
+main {
+  width: 80vw;
+  padding: 2em;
+  margin: 1em auto;
+  background: lightgray; }
+
+article {
+  margin-bottom: 1em; }
+
+.block {
+  width: 60vw;
+  margin-left: 16vw; }
+
+.thumbnail {
+  width: 15vw;
+  height: 150px;
+  overflow: hidden;
+  display: block;
+  float: left; }
+
+html {
+  font-size: 1em; }
+
+body {
+  background-color: #fff;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  line-height: 1.45;
+  color: black; }
+
+a {
+  color: gray;
+  text-decoration: none; }
+
+p {
+  margin-bottom: 1.3em; }
+
+h1, h2, h4 {
+  margin-bottom: 0.5em;
+  font-weight: inherit;
+  line-height: 1.2; }
+
+h1 {
+  font-size: 2.074em; }
+
+header h1 {
+  top: 85px;
+  position: relative;
+  font-size: 2.074em; }
+
+h2 {
+  font-size: 1.728em; }
+
+h3 {
+  font-size: 1.44em;
+  line-height: 2; }
+
+h4 {
+  font-size: 1.2em; }
+
+small, .font_small {
+  font-size: 0.833em; }
+
+form {
+  margin: 1em auto;
+  width: 70vw; }
+  form input {
+    display: block;
+    width: 100%; }
+  form .button {
+    width: auto;
+    display: inline; }
+  form .short {
+    width: 150px;
+    display: inline; }
+
+input {
+  border-radius: 5px;
+  border: 2px solid lightgray;
+  padding: .5em;
+  font-size: 14px;
+  margin-bottom: 1em; }
+  input.button {
+    background-color: white; }
+
+select {
+  font-family: inherit;
+  font-weight: 300;
+  font-size: 12pt;
+  border: none;
+  background-color: transparent; }
+
+.ng-enter {
+  transition: 0.75s;
+  opacity: 0; }
+
+.ng-enter-active {
+  opacity: 1; }
+
+.ng-leave {
+  transition: 0.75s;
+  opacity: 1; }
+
+.ng-leave-active {
+  opacity: 0; }
+
+.ng-enter-stagger {
+  transition-delay: 0.1s; }
+
+.error {
+  border-color: red;
+  color: red; }

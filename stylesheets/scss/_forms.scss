@@ -1,0 +1,33 @@
+form {
+  margin: 1em auto;
+  width: 70vw;
+  input {
+    display: block;
+    width: 100%;
+  }
+  .button {
+    width: auto;
+    display: inline;
+  }
+  .short {
+    width: 150px;
+    display: inline;
+  }
+}
+input {
+  border-radius: 5px;
+  border: 2px solid lightgray;
+  padding: .5em;
+  font-size: 14px;
+  margin-bottom: 1em;
+  &.button {
+    background-color: white;
+  }
+}
+select {
+  font-family: inherit;
+  font-weight: 300;
+  font-size: 12pt;
+  border: none;
+  background-color: transparent;
+}
