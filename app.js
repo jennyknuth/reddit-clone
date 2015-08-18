@@ -47,12 +47,12 @@ app.controller("RedditApp", function($scope){
     {title: "Homemade Figurines", author: "Kadin Tucker",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultrices sodales felis, non porta massa tincidunt ut. Sed a urna orci. Donec ac pharetra lectus. Mauris placerat arcu eget viverra vulputate. Mauris finibus tempus ligula, id pellentesque sapien luctus vitae. Integer sodales interdum sagittis. Vestibulum tellus neque, consectetur non ante",
       image: "http://www.booooooom.com/wp-content/uploads/2009/03/homemade_gi_joe_04.jpg",
-      votes: 4, date: "Sun Aug 16 2015 10:37:17 GMT-0600 (MDT)",
+      votes: 4, date: "Mon Aug 17 2015 10:37:17 GMT-0600 (MDT)",
       comments: [{author: "dan", text: "lorem"}]},
     {title: "Organizing Your Fabric", author: "Jenny Knuth",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultrices sodales felis, non porta massa tincidunt ut. Sed a urna orci. Donec ac pharetra lectus. Mauris placerat arcu eget viverra vulputate. Mauris finibus tempus ligula, id pellentesque sapien luctus vitae. Integer sodales interdum sagittis. Vestibulum tellus neque, consectetur non ante",
       image: "http://forum.missouriquiltco.com/attachments/look-what-i-found-quilting-links-resources/19382d1334714387-organizing-my-stash-fabric-mini-bolts-organization_0073.jpg",
-      votes: -1, date: "Sun Aug 16 2015 10:37:17 GMT-0600 (MDT)",
+      votes: -1, date: "Sun Aug 16 2015 13:37:17 GMT-0600 (MDT)",
       comments: [{author: "bob", text: "lorem"}, {author: "joe", text: "lorem"}]},
     {title: "Medicine Horse", author: "Susan Hallowell",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultrices sodales felis, non porta massa tincidunt ut. Sed a urna orci. Donec ac pharetra lectus. Mauris placerat arcu eget viverra vulputate. Mauris finibus tempus ligula, id pellentesque sapien luctus vitae. Integer sodales interdum sagittis. Vestibulum tellus neque, consectetur non ante euismod, laoreet rutrum urna. Vestibulum ante ipsum primis in faucibus orci luctus",
@@ -62,7 +62,7 @@ app.controller("RedditApp", function($scope){
     {title: "A Week in Paris", author: "Eve Rose",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultrices sodales felis, non porta massa tincidunt ut. Sed a urna orci. Donec ac pharetra lectus. Mauris placerat arcu eget viverra vulputate. Mauris finibus tempus ligula, id pellentesque sapien luctus vitae. Integer sodales interdum sagittis. Vestibulum tellus neque, consectetur non ante euismod, laoreet rutrum urna. Vestibulum ante ipsum primis in faucibus orci luctus",
       image: "http://static1.squarespace.com/static/50305c7684ae7fae2e65756a/t/55749592e4b082d12f610284/1433703827780/?format=750w",
-      votes: 0, date: 'Sun Aug 16 2015 10:37:17 GMT-0600 (MDT)',
+      votes: 0, date: 'Mon Aug 17 2015 10:35:17 GMT-0600 (MDT)',
       comments: [{author: "pink", text: "lorem"}]}
   ]
 })
