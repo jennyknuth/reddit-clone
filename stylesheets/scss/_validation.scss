@@ -1,17 +1,7 @@
-// form[novalidate] input {
-//   border-left-width: 8px;
-//   border-color: $blue;
-//   border-style: solid;
-// }
-//
-// iput.ng-invalid.ng-dirty {
-//   border-color: $red;
-// }
 .error {
   border-color: $red;
-  color: $red;
 }
 
-// .ng-invalid {
-//   border-color: $red;
-// }
+input.ng-invalid.ng-touched {
+    background-color: $red;
+}

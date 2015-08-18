@@ -1,0 +1,19 @@
+{
+  "name": "reddit-clone",
+  "version": "0.0.0",
+  "authors": [
+    "Jenny Knuth <inkboco@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-moment": "~0.10.2",
+    "moment": "~2.10.6"
+  }
+}

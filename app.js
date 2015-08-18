@@ -1,7 +1,6 @@
 var app = angular.module("redditClone", ['angularMoment', 'ngAnimate']);
 
 app.controller("RedditApp", function($scope){
-  console.log($scope.articles[4].date);
   $scope.toggleNewPost = function () {
     $scope.newPost === true ? $scope.newPost = false : $scope.newPost = true
   }

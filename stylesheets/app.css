@@ -46,7 +46,7 @@ table {
   border-spacing: 0; }
 
 .red {
-  color: red; }
+  color: #FA787E; }
 
 .green {
   color: green; }
@@ -188,5 +188,7 @@ select {
   transition-delay: 0.1s; }
 
 .error {
-  border-color: red;
-  color: red; }
+  border-color: #FA787E; }
+
+input.ng-invalid.ng-touched {
+  background-color: #FA787E; }
